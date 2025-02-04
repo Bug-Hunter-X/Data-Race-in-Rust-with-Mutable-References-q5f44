@@ -1,0 +1,3 @@
+# Data Race in Rust with Mutable References
+
+This example showcases a subtle data race in Rust that can occur when multiple mutable references point to the same variable.  While the code compiles and might appear correct, the outcome is unpredictable and depends on the compiler's optimizations and runtime behavior.  The solution demonstrates how to avoid data races using techniques like ownership and borrowing.
